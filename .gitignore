@@ -481,3 +481,5 @@ fabric.properties
 appsettings.Development.json
 
 # End of https://www.toptal.com/developers/gitignore/api/csharp,rider
+
+GdscManagement/GdscManagement/appsetings.Development.json
