@@ -1,15 +1,15 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using GdscManagement.Base;
+using GdscManagement.Features.Roles;
 
 namespace GdscManagement.Features.Users;
 
-public class UserModel
+public class User : Model
 {
     public string FirstName { get; set; }
     
     public string LastName { get; set; }
     
-    [EmailAddress]
     public string Email { get; set; }
     
-    public IEnumerable<string> Roles { get; set; }
+    public IEnumerable<Role> Roles { get; set; }
 }
